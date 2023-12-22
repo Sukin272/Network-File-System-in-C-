@@ -269,7 +269,7 @@ int copyPathtoPath(char *srcPath, char *destPath, int isFile)
     int PortForDest = portnext++;
     Temp = listOfSS;
     port_to_send_to;
-    int SSdest = searchPath(srcPath, h);
+    int SSdest = searchPath(destPath, h);
     if (SSdest != -1)
     {
         while (Temp->next != NULL)
